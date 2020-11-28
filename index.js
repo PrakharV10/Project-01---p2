@@ -1,6 +1,7 @@
 // input 
 var myVar = require('readline-sync');
 var chalk = require('chalk');
+
 var Username = myVar.question(chalk.red("Hi! What is your name?\n"));
 console.log(chalk.cyanBright("Welcome " + Username + 
 "\nTo the world, where magic flows like blood in your veins!!\nWhere miracles happen with the advent of every day and night!! \n" + "Welcome " + Username + " to PV's World!\n"));
@@ -95,7 +96,7 @@ const leaderBoard = [
     score : "8"
   },
   {
-    name : "Eugeo",
+    name : "Ashita",
     score : "6"
   },
   {
